@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="facture.css">
+    <script src="facture.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Facture</h1>
+    <hr width="80%">
+    <table>
+        <tr>
+            <td><p>ARTICLE</p></td>
+            <td><p>PRIX UNITAIRE</td>
+            <td><p>QUANTITE</p></td>
+            <td><p>RESULTAT</p></td>            
+        </tr>
+        <tr>
+            <td><input class="a" placeholder="Article 1" type="text" name="a1" id="a1"></td>      
+            <td><input class="p" placeholder="Prix unitaire" type="number" name="p1" id="p1"></td> 
+            <td><input class="q" placeholder="Quantité" type="number" name="q1" id="q1"></td>
+            <td><input class="r" placeholder="Résultat" type="text" name="r1" id="r1" readonly></td>
+        </tr>
+        <tr>
+            <td><input class="a" placeholder="Article 2" type="text" name="a2" id="a2"></td>      
+            <td><input class="p" placeholder="Prix unitaire" type="number" name="p2" id="p2"></td> 
+            <td><input class="q" placeholder="Quantité" type="number" name="q2" id="q2"></td>
+            <td><input class="r" placeholder="Résultat" type="text" name="r2" id="r2" readonly></td>
+        </tr>
+        <tr>
+            <td><input class="a" placeholder="Article 3" type="text" name="a3" id="a3"></td>      
+            <td><input class="p" placeholder="Prix unitaire" type="number" name="p3" id="p3"></td> 
+            <td><input class="q" placeholder="Quantité" type="number" name="q3" id="q3"></td>
+            <td><input class="r" placeholder="Résultat" type="text" name="r3" id="r3" readonly></td>
+        </tr>
+        <tr>
+            <td><p>PRIX TOTAL</p></td>
+            <td></td>
+            <td></td>
+            <td><input class="r" placeholder="Résultat" type="text" name="r4" id="r4" readonly></td>
+        </tr>
+        <tr>
+            <td><button onclick="rein()">reinitialiser</button></td>
+            <td><button onclick="cal()">calculer</button></td>
+        </tr>
+    </table>
+    
+    <a href="../tp.html">Retour au sommaire</a>
+
+</body>
+</html>
